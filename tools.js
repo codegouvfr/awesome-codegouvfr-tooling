@@ -50,7 +50,10 @@ const ecosystemToPubliccodeMapping = ecosystem => {
 
         usedBy: [],
 
-        fundedBy: [],
+        fundedBy: [{
+            name: "",
+            url: ""
+        }],
 
         // roadmap: ecosystem.repository.metadata.files?.roadmap, TODO
         roadmap: "",
@@ -82,9 +85,8 @@ const ecosystemToPubliccodeMapping = ecosystem => {
         },
 
         maintenance: {
-            type: "community",
+            type: "internal",
             contacts: [{
-                name: "",
                 email: ""
             }]
         },
