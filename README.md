@@ -1,6 +1,8 @@
 # Awesome codegouvfr: the tooling API
 
-This repository aims to provide tools (via an API) for helping Awesome CodeGouvFr projects, for instance for generating a first draft of their `publiccode.yml` file.
+This repository provides tooling for [Awesome CodeGouvFr](https://code.gouv.fr/fr/awesome/).
+
+E.g. given a repository, it can generate a first draft of its `publiccode.yml` file.
 
 ## Quickstart
 
@@ -11,7 +13,7 @@ npm start
 
 ### Generate `publiccode.yml`
 
-Generate a `publiccode.yml` file for a project given its github repository url, with automatic completion of certain fields from [ecosyste.ms summary API](https://summary.ecosyste.ms/).
+After you quickstarted as explained above, here is how to generate a `publiccode.yml` file given a GitHub repository URL, with automatic completion of certain fields from the [ecosyste.ms summary API](https://summary.ecosyste.ms/):
 
 ```
 # Generate publiccode.yml for react-dsfr project
